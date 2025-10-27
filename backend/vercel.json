@@ -1,8 +1,0 @@
-{
-  "crons": [
-    {
-      "path": "/cron/daily-quiz",
-      "schedule": "0 0 * * *"
-    }
-  ]
-}
