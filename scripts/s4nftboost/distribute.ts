@@ -3,8 +3,8 @@ import { base, eduChain } from 'viem/chains';
 import { privateKeyToAccount } from 'viem/accounts';
 import * as fs from 'fs';
 import * as path from 'path';
-import { quizGameABI } from '../src/libs/quizGameABI.js';
-import { getContractAddresses } from '../src/libs/constants.js';
+import { quizGameABI } from '../../src/libs/quizGameABI.js';
+import { getContractAddresses } from '../../src/libs/constants.js';
 import dotenv from 'dotenv';
 dotenv.config();
 
