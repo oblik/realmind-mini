@@ -11,12 +11,9 @@ dotenv.config();
 // ============================================
 // CONFIGURATION - UPDATE THESE VALUES
 // ============================================
-const CSV_FILE_PATH = './scripts/s4nftboost/edu/nft_holders_airdrop.csv';
 
-// Select target chain - Change this to switch networks:
-// - For Base: const TARGET_CHAIN = base;
-// - For EDU Chain: const TARGET_CHAIN = eduChain;
-const TARGET_CHAIN = eduChain;
+const CSV_FILE_PATH = './scripts/s4nftboost/base/holders_airdrop.csv';
+const TARGET_CHAIN = base;
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY as `0x${string}`;
 

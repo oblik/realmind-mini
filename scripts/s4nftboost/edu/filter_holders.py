@@ -26,7 +26,7 @@ def main():
             address = row['HolderAddress'].lower()
             if address in nft_holders:
                 balance = float(row['Balance'])
-                airdrop_amount = balance * 0.1  # 10% of balance
+                airdrop_amount = round(balance * 0.1, 3)  # 10% of balance, rounded to 3 decimals
                 matched_records.append({
                     'Address': row['HolderAddress'],  # Keep original case
                     'Airdrop_Amount': airdrop_amount
